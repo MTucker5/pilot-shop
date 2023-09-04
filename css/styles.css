@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction:row;
+	align-items: space-around;
+	font-size: 30px;
+	justify-content:space-around;
+}
+.navigation {
+	display:flex;
+	flex-direction:row;
+	align-items: space-around;
+	font-size: 30px;
+	justify-content:space-around;
+}
+img {
+	width:auto;
+	height:auto;
+	object-fit:cover;
+}
+.picture-text {
+	position:absolute;
+	text-align:center;
+	top:50%;
+	left:50%;
+	font-size:100px;
+	color:#ffffff;
+	margin:auto;
+	
+}
+	.picture-small {
+		position:absolute;
+		text-align:center;
+		top:80%;
+		left:50%;
+		font-size:40px;
+		color:#ffffff;
+	
+}
+.row {
+	display:flex;
+	flex-direction:row;
+	align-items:space-around;
+	justify-content:space-evenly;
+}
